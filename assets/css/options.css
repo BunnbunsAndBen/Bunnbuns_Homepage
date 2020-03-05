@@ -24,11 +24,11 @@
     --scrollbarThumbBg: rgba(119, 162, 111, 0.85);
     --scrollbarThumbBgHover: rgba(119, 162, 111, 0.85);
     /* button */
-    --buttonBg: #2a8e30;
+    --buttonBg: #2d9834;
     --buttonColor: #ffffff;
-    --buttonBgHover: #349d3a;
-    --buttonBgActive: #207c26;
-    --buttonBgFocus: #207c26;
+    --buttonBgHover: #3ca843;
+    --buttonBgActive: #2a8e31;
+    --buttonBgFocus: #28842e;
     --button-outlineBorderColor: #1c8128;
     --button-outlineBgHover: rgba(31, 136, 44, 0.35);
     --button-outlineBgActive: rgba(31, 136, 44, 0.5);
