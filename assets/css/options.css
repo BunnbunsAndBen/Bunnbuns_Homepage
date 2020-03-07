@@ -1,14 +1,14 @@
 :root {
     /* body */
-    --bodyBg: #081a08;
-    --bodyColor: #ffffff;
+    --bodyBg: #d2ffd2;
+    --bodyColor: #030303;
     /* links */
     --linkColor: #379f3d;
     --linkColorHover: #3aaa41;
     --linkColorActive: #2c8d32;
     --linkColorFocus: #2c8d32;
     /* nav */
-    --navBg: #165d1a;
+    --navBg: #267e2c;
     --navColor: #ffffff;
     --navLogoColor: #ffffff;
     --navLinkBorderColor: #2f9635;
@@ -36,7 +36,7 @@
     /* loader */
     --loaderBg: #165d1a;
     /* footer */
-    --footerBg: #1e7721;
+    --footerBg: #267e2c;
     --footerColor: rgba(255, 255, 255, 0.77);
     --footerLinkColor: rgba(255, 255, 255, 0.77);
     --footerLinkColorHoverFocus: rgba(255, 255, 255, 0.84);
