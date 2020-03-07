@@ -1,28 +1,24 @@
 :root {
     /* body */
-    --bodyBg: #d2ffd2;
-    --bodyColor: #030303;
+    --bodyBg: #031905;
+    --bodyColor: #ffffff;
     /* links */
     --linkColor: #379f3d;
     --linkColorHover: #3aaa41;
     --linkColorActive: #2c8d32;
     --linkColorFocus: #2c8d32;
     /* nav */
-    --navBg: #267e2c;
+    --navBg: #19721f;
     --navColor: #ffffff;
     --navLogoColor: #ffffff;
-    --navLinkBorderColor: #2f9635;
+    --navLinkBorderColor: #339b39;
     --navLinkBg: rgba(44, 141, 50, 0.35);
-    --navLinkBg-Active: #2f9635;
+    --navLinkBg-Active: #339b39;
     --navLinkBgHover: rgba(44, 142, 50, 0.35);
     --navLinkBgFocus: rgba(45, 144, 52, 0.5);
     --navLinkColor: #ffffff;
     /* hr */
-    --hrBorderColor: rgba(255, 255, 255, 0.25);
-    /* scrollbar */
-    --scrollbarTrackBg: rgba(59, 103, 61, 0.9);
-    --scrollbarThumbBg: rgba(119, 162, 111, 0.85);
-    --scrollbarThumbBgHover: rgba(119, 162, 111, 0.85);
+    --hrBorderColor: rgba(255, 255, 255, 0.1);
     /* button */
     --buttonBg: #2d9834;
     --buttonColor: #ffffff;
@@ -30,15 +26,15 @@
     --buttonBgActive: #2a8e31;
     --buttonBgFocus: #28842e;
     --button-outlineBorderColor: #1c8128;
-    --button-outlineBgHover: rgba(31, 136, 44, 0.35);
-    --button-outlineBgActive: rgba(31, 136, 44, 0.5);
-    --button-outlineBgFocus: rgba(31, 136, 44, 0.5);
+    --button-outlineBgHover: rgba(31, 136, 44, 0.12);
+    --button-outlineBgActive: rgba(31, 136, 44, 0.18);
+    --button-outlineBgFocus: rgba(31, 136, 44, 0.22);
     /* loader */
     --loaderBg: #165d1a;
     /* footer */
-    --footerBg: #267e2c;
-    --footerColor: rgba(255, 255, 255, 0.77);
-    --footerLinkColor: rgba(255, 255, 255, 0.77);
-    --footerLinkColorHoverFocus: rgba(255, 255, 255, 0.84);
+    --footerBg: #238629;
+    --footerColor: rgba(255, 255, 255, 0.8);
+    --footerLinkColor: rgba(255, 255, 255, 0.8);
+    --footerLinkColorHoverFocus: rgba(255, 255, 255, 0.9);
     --footer-copyrightBg: rgba(51, 51, 51, 0.08);
 }

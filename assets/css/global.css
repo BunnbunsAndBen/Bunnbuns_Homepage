@@ -45,7 +45,7 @@ nav {
 	align-items: center;
 	background-color: var(--navBg);
 	color: var(--navColor);
-	box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.32);
+	box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.2);
 }
 .flex-grow {
 	display: flex;
@@ -191,27 +191,6 @@ nav .mobile-flex {
 	user-select: none;
 }
 
-/* scrollbar */
-::-webkit-scrollbar {
-	/* width */
-	width: 10px;
-	height: 10px;
-}
-::-webkit-scrollbar-track {
-	/* Track */
-	background: var(--scrollbarTrackBg);
-	border-radius: 5px;
-}
-::-webkit-scrollbar-thumb {
-	/* Handle */
-	background: var(--scrollbarThumbBg);
-	border-radius: 5px;
-}
-::-webkit-scrollbar-thumb:hover {
-	/* Handle on hover */
-	background: var(--scrollbarThumbBgHover);
-}
-
 /* hr */
 hr {
 	display: block;
@@ -266,6 +245,7 @@ hr.lg {
 .button.outline {
 	padding: 10px 18px;
 	background-color: transparent;
+/*    color: var(--button-outlineBorderColor);*/
 	border-color: var(--button-outlineBorderColor);
 	border-style: solid;
 	border-width: 1px;
@@ -319,7 +299,7 @@ hr.lg {
 
 /* main stuffs */
 main {
-	margin: 5.25rem 0 6.5rem 0;
+	margin: 5.5rem 0 6.5rem 0;
 	min-height: 70vh;
 }
 .title {
