@@ -1,21 +1,32 @@
 .hero {
-	background: #1b5e20 url("https://bunnbuns.net/assets/banner_v2_full.jpg")
-	no-repeat center center;
+	background: #599e5f url("https://bunnbuns.net/assets/banner_v2_sm.jpg")
+		no-repeat center bottom;
 	background-size: cover;
 	padding: 8.5rem 0;
+	border-bottom: 3px solid #fff;
 }
 
 .pfp {
-	background: #ccc url("https://bunnbuns.net/buna-800x.png") no-repeat center center;
+	box-sizing: border-box;
+	background: #ccc url("https://bunnbuns.net/buna-800x.png") no-repeat center
+		center;
 	background-size: cover;
-	margin: -8rem auto auto auto;
+	margin: -6rem auto auto auto;
 	border-radius: 50%;
-	height: 250px;
-	max-height: 250px;
-	max-width: 250px;
-	box-shadow: 0px 3px 13px rgba(40, 40, 40, 0.2);
+	height: 225px;
+	max-height: 225px;
+	max-width: 225px;
+	border: 3px solid #fff;
+	box-shadow: 0px 0px 12px rgba(40, 40, 40, 0.22);
 }
 
 .title {
-	font-size: 2.75rem;
+	font-size: 2.5rem;
+	margin: 1rem 0 0.5rem 0;
+}
+
+.sub {
+	font-size: 1.075rem;
+	font-weight: 400;
+	color: rgba(0, 0, 0, 0.7);
 }
