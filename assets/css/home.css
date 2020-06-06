@@ -1,11 +1,59 @@
-.container {
-	min-height: 100vh;
+.topnav {
+	width: 100%;
+	overflow-y: hidden;
+	line-height: 0;
+	color: #000;
+	background-color: rgb(255, 255, 255, 0.87);
+	box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.2);
+	/* text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.85); */
+	border-bottom: 1px solid rgba(0, 0, 0, 0.17);
 }
+
+.topnav.fixed {
+	position: fixed;
+}
+
+.topnav a {
+	text-decoration: none;
+}
+
+.topnav .nav-container {
+	display: flex;
+	align-items: center;
+}
+
+.topnav .logo {
+	color: #000;
+	padding: 1.5rem 1rem;
+	font-size: 110%;
+	font-weight: 500;
+	transition: all 0.17s;
+}
+
+.topnav .logo:hover {
+	background: rgba(180, 180, 180, 0.32);
+}
+
+.topnav .item {
+	color: inherit;
+	font-weight: 500;
+	padding: 1.5rem 1rem;
+	transition: all 0.15s;
+}
+
+.topnav .item.active {
+	background: rgba(180, 180, 180, 0.2);
+}
+
+.topnav .item:hover {
+	background: rgba(180, 180, 180, 0.32);
+}
+
 .hero {
 	background: #599e5f url("https://bunnbuns.net/assets/banner_v2_sm.jpg")
 		no-repeat center bottom;
 	background-size: cover;
-	padding: 8.5rem 0;
+	padding: 9rem 0;
 	border-bottom: 3px solid #fff;
 }
 
@@ -13,7 +61,7 @@
 	background: #ccc url("https://bunnbuns.net/buna-800x.png") no-repeat center
 		center;
 	background-size: cover;
-	margin: -6rem auto auto auto;
+	margin: -6.25rem auto auto auto;
 	box-sizing: border-box;
 	border-radius: 50%;
 	height: 225px;
@@ -29,7 +77,7 @@
 }
 
 .sub {
-	font-size: 1.075rem;
+	font-size: 1.1rem;
 	font-weight: 400;
 	color: rgba(0, 0, 0, 0.75);
 }
@@ -82,9 +130,11 @@
 }
 
 .button.block-btn:hover {
-	box-shadow: 0px 0px 9px rgba(40, 40, 40, 0.23);
+	box-shadow: 0px 0px 9px rgba(35, 35, 35, 0.23);
+	border: 1px solid rgba(0, 0, 0, 0.22);
 }
 
 .button.block-btn:active {
-	box-shadow: 0px 0px 5px rgba(40, 40, 40, 0.3);
+	box-shadow: 0px 0px 5px rgba(40, 40, 40, 0.33);
+	border: 1px solid rgba(0, 0, 0, 0.24);
 }
