@@ -1,3 +1,18 @@
+a.link {
+	color: #46311e;
+	text-decoration: none;
+	font-weight: 500;
+}
+
+a.link:hover {
+	color: #583e28;
+	text-decoration: underline;
+}
+
+a.link:active {
+	color: #3f2b1a;
+}
+
 .topnav {
 	width: 100%;
 	overflow-y: hidden;
