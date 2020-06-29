@@ -17,7 +17,7 @@ a.link:active {
 	overflow-y: hidden;
 	top: 0;
 	line-height: 0;
-	color: rgb(70, 49, 30);
+	color: rgb(58, 40, 24);
 	background-color: rgba(241, 212, 184, 0.95);
 	box-shadow: 0px 0px 10px rgba(20, 20, 20, 0.22);
 	/* text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.85); */
@@ -38,7 +38,7 @@ a.link:active {
 }
 
 .topnav .logo {
-	color: rgb(70, 49, 30);
+	color: rgb(58, 40, 24);
 	padding: 1.5rem .75rem;
 	font-size: 110%;
 	font-weight: 500;
@@ -73,8 +73,7 @@ a.link:active {
 }
 
 .hero {
-	background: #97bd81 url("https://bunnbuns.net/assets/images/bark-bg.jpg")
-		no-repeat center bottom;
+	background: #97bd81 no-repeat center bottom;
 	background-size: cover;
 	padding: 8.75rem 0;
 	border-bottom: 3px solid #fff;
