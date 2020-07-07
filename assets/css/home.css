@@ -133,6 +133,29 @@ a.link:active {
 	transition: all 0.1s ease-in-out;
 }
 
+.button .fa {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.button.primary {
+	display: inline-block;
+	padding: .5rem 1rem;
+	border-radius: 6px;
+	font-weight: 500;
+	color: #fff;
+	background-color: rgb(110, 80, 55);
+}
+
+.button.primary:hover {
+	background-color: rgb(121, 88, 62);
+}
+
+.button.primary:active {
+	background-color: rgb(105, 76, 51);
+}
+
+
 .button.block-btn {
 	display: block;
 	padding: 1rem 1.5rem 1rem 1.5rem;
@@ -146,8 +169,6 @@ a.link:active {
 }
 
 .button.block-btn .fa {
-	display: inline-block;
-	vertical-align: middle;
 	font-size: 2.5rem;
 }
 
