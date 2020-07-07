@@ -18,7 +18,7 @@ a.link:active {
 	top: 0;
 	line-height: 0;
 	color: rgb(58, 40, 24);
-	background-color: rgba(241, 212, 184, .93);
+	background-color: rgba(241, 212, 184, .94);
 	box-shadow: 0px 0px 10px rgba(20, 20, 20, 0.22);
 	/* text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.85); */
 	border-bottom: 1px solid rgba(102, 72, 43, 0.18);
@@ -39,8 +39,8 @@ a.link:active {
 
 .topnav .logo {
 	color: rgb(58, 40, 24);
-	padding: 1.5rem .75rem;
-	font-size: 110%;
+	padding: 1.65rem .75rem;
+	font-size: 115%;
 	font-weight: 500;
 	transition: all 0.17s;
 }
@@ -52,24 +52,24 @@ a.link:active {
 .topnav .item {
 	color: inherit;
 	font-weight: 500;
-	padding: 1.5rem .75rem;
+	padding: 1.65rem .75rem;
 	transition: all 0.15s;
 }
 
 .topnav .item.active {
-	background: rgba(231, 188, 148, 0.32);
+	background: rgba(231, 188, 148, 0.35);
 }
 
 .topnav .item:hover {
-	background: rgba(224, 178, 136, 0.3);
+	background: rgba(224, 178, 136, 0.32);
 }
 
 .navbar-height {
-	margin-top: 2.5rem;
+	margin-top: 2.75rem;
 }
 
 .navbar-margin {
-	margin-top: 4.5rem;
+	margin-top: 4.75rem;
 }
 
 .hero {
@@ -94,8 +94,8 @@ a.link:active {
 }
 
 .title {
-	font-size: 2.5rem;
-	margin: 1rem 0 0.75rem 0;
+	font-size: 2.55rem;
+	margin: 1rem 0 0.5rem 0;
 }
 
 .sub {
